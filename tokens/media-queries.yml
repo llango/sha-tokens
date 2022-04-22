@@ -19,5 +19,5 @@ props:
     value: '{!mq--short}'
   - name: 'mq--tall'
     value: '{!mq--tall}'
-  - name: 'mq--high-res'
-    value: '{!mq--high-res}'
+  - name: 'mq-high--res'
+    value: '{!mq-high--res}'

@@ -18,7 +18,7 @@
 </tr>
 <tr>
 <td>版本</td>
-<td><a href="https://github.com/llango/sha-tokens/blob/master/CHANGELOG.md">1.0.0</a></td>
+<td><a href="https://github.com/llango/sha-tokens/blob/master/CHANGELOG.md">1.0.2</a></td>
 </tr>
 </table>
 
