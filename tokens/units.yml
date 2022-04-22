@@ -1,0 +1,35 @@
+# Note: aliases can't be referenced in meta values
+
+global:
+  type: web
+  category: padding
+imports:
+  - ./_aliases.yml
+props:
+  - name: spacing--xs
+    value: '{!spacing--xs}'
+  - name: spacing--sm
+    value: '{!spacing--sm}'
+  - name: spacing--md
+    value: '{!spacing--md}'
+  - name: spacing--lg
+    value: '{!spacing--lg}'
+  - name: spacing--xl
+    value: '{!spacing--xl}'
+  - name: spacing--2xl
+    value: '{!spacing--2xl}'
+
+  - name: layout--2xs
+    value: '{!layout--2xs}'
+  - name: layout--xs
+    value: '{!layout--xs}'
+  - name: layout--sm
+    value: '{!layout--sm}'
+  - name: layout--md
+    value: '{!layout--md}'
+  - name: layout--lg
+    value: '{!layout--lg}'
+  - name: layout--xl
+    value: '{!layout--xl}'
+  - name: layout--2xl
+    value: '{!layout--2xl}'

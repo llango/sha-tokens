@@ -1,0 +1,14 @@
+global:
+  type: font-family
+  category: font-family
+imports:
+  - ./_aliases.yml
+props:
+  - name: font-stack--base
+    value: '{!font-stack--base}'
+  - name: font-stack--sha
+    value: '{!font-stack--sha}'
+  - name: font-stack--shallot
+    value: '{!font-stack--shallot}'
+  - name: font-stack--mono
+    value: '{!font-stack--mono}'

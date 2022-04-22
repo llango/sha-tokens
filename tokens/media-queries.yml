@@ -1,0 +1,23 @@
+global:
+  type: string
+  category: width
+imports:
+  - ./_aliases.yml
+props:
+
+  - name: 'mq--xs'
+    value: '{!mq--xs}'
+  - name: 'mq--sm'
+    value: '{!mq--sm}'
+  - name: 'mq--md'
+    value: '{!mq--md}'
+  - name: 'mq--lg'
+    value: '{!mq--lg}'
+  - name: 'mq--xl'
+    value: '{!mq--xl}'
+  - name: 'mq--short'
+    value: '{!mq--short}'
+  - name: 'mq--tall'
+    value: '{!mq--tall}'
+  - name: 'mq--high-res'
+    value: '{!mq--high-res}'

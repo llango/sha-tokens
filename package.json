@@ -1,0 +1,42 @@
+{
+    "name": "sha-tokens",
+    "version": "1.0.0",
+    "description": "根据Mozilla的设计tokens修改过来，为了满足自身的开发。",
+    "main": "dist/index.js",
+    "style": "dist/index.scss",
+    "scripts": {
+        "lint-js": "./node_modules/.bin/eslint .",
+        "lint-css": "./node_modules/.bin/stylelint '**/*.css' '**/*.scss'",
+        "pretest": "npm run lint-css && npm run lint-js",
+        "test": "gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/llango/sha-tokens.git"
+    },
+    "keywords": [
+        "design",
+        "system",
+        "tokens",
+        "colors",
+        "variables"
+    ],
+    "author": "Rontom",
+    "license": "MPL-2.0",
+    "bugs": {
+        "url": "https://github.com/llango/sha-tokens/issues"
+    },
+    "homepage": "https://github.com/llango/sha-tokens#readme",
+    "devDependencies": {
+        "@mozilla-protocol/eslint-config": "^1.1.0",
+        "del": "^3.0.0",
+        "eslint": "^5.13.0",
+        "gulp": "^4.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-theo": "^2.0.0",
+        "merge-stream": "^1.0.1",
+        "require-dir": "^1.2.0",
+        "stylelint": "^9.10.1",
+        "theo": "^8.1.1"
+    }
+}

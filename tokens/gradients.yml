@@ -1,0 +1,29 @@
+# Note: aliases can't be referenced in meta values
+
+global:
+  type: color
+  category: background-color
+imports:
+  - ./_aliases.yml
+props:
+  - name: gradient--warm
+    value: 'linear-gradient(45deg, #F5156C, #FF3750, #FF4F5E, #FF7139, #FF980E)'
+    meta:
+      friendlyName: Warm Gradient
+      type: 'linear'
+      angle: '45deg'
+      value: '#F5156C, #FF3750, #FF4F5E, #FF7139, #FF980E'
+  - name: gradient--cool
+    value: 'linear-gradient(90deg, #3A8EE6, #9059FF, #C139E6)'
+    meta:
+      friendlyName: Cool Gradient
+      type: 'linear'
+      angle: '90deg'
+      value: '#3A8EE6, #9059FF, #C139E6'
+  - name: gradient--highlight
+    value: 'linear-gradient(90deg, #FFFFFF, #FFF44F)'
+    meta:
+      friendlyName: Highlight Gradient
+      type: 'linear'
+      angle: '90deg'
+      value: '#FFFFFF, #FFF44F'
