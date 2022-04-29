@@ -18,7 +18,7 @@
 </tr>
 <tr>
 <td>版本</td>
-<td><a href="https://github.com/llango/sha-tokens/blob/master/CHANGELOG.md">1.0.2</a></td>
+<td><a href="https://github.com/llango/sha-tokens/blob/master/CHANGELOG.md">1.0.3</a></td>
 </tr>
 </table>
 
@@ -63,7 +63,7 @@ Sass 变量和匹配键采用 [kebab-case](http://wiki.c2.com/?KebabCase)格式�
 
 ```scss
 // Using variables
-@import '~@mozilla-protocol/tokens/dist/index';
+@import 'sha-tokens/tokens/dist/index';
 
 a {
   color: $color-black;
